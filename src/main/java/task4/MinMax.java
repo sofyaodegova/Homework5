@@ -3,7 +3,7 @@ package task4;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Task4 {
+public class MinMax {
     public static void main(String[] args) {
         ArrayList<Integer> array = new ArrayList<>();
         array.add(53);

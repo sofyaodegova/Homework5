@@ -2,7 +2,7 @@ package task5;
 
 import java.util.HashMap;
 
-public class Task5 {
+public class CatsDogs {
     public static void main(String[] args) {
         HashMap<String, Integer> cats = new HashMap<>();
         cats.put("Vasya", 2);

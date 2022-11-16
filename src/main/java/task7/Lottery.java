@@ -3,7 +3,7 @@ package task7;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Task7 {
+public class Lottery {
     public static void main(String[] args) {
         ArrayList<Integer> lottery = new ArrayList<Integer>(100);
 

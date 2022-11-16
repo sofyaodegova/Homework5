@@ -3,7 +3,7 @@ package task6;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Task6 {
+public class SolarSystem {
     public static void main(String[] args) {
         ArrayList<String> solarSystem = new ArrayList<>();
         solarSystem.add("Mercury");

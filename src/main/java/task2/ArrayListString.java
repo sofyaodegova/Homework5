@@ -3,7 +3,7 @@ package task2;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Task2 {
+public class ArrayListString {
     public static void main(String[] args) {
         ArrayList<String> animals = new ArrayList<>();
         animals.add("Lion");
