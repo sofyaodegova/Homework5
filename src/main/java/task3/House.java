@@ -1,11 +1,11 @@
 package task3;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
+import java.util.*;
 
 public class House {
     public static void main(String[] args) {
+        ArrayList<String> adults = new ArrayList<>();
+
         HashMap<String, Integer> ageAndNames = new HashMap<>();
 
         ageAndNames.put("Александра Ивановна Петрова", 22);
@@ -17,15 +17,13 @@ public class House {
         ageAndNames.put("Тимофей Анатольевич Ефремов", 37);
         ageAndNames.put("Наталья Григорьевна Николаева", 31);
 
-        ArrayList<String> adults = new ArrayList<>();
-        adults.add("Александра Ивановна Петрова");
-        adults.add("Иван Сергеевич Николаев");
-        adults.add("Олег Викторович Дерендяев");
-        adults.add("Тимофей Анатольевич Ефремов");
-        adults.add("Наталья Григорьевна Николаева");
+        for (Map.Entry<String, Integer> entry : ageAndNames.entrySet()) {
+            if (entry.getValue() >= 18) {
+                adults.add(entry.getKey());
+            }
+        }
 
         Collections.sort(adults);
         System.out.println("Список жильцов, отсортированный от А до Я: " + adults);
     }
 }
-
